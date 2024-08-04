@@ -57,3 +57,28 @@ Como usuario, quiero que el sistema analice las descripciones de las vacantes y 
 - El sistema debe poder analizar las descripciones de las vacantes y extraer los requisitos clave.
 - El sistema debe retroalimentarme en la hoja de vida del usuario para reflejar mejor esos requisitos.
 - Las sugerencias deben ser claras y fáciles de implementar por el usuario.
+
+
+
+# Historias de Usuario - Plantillas
+# Historia de Usuario
+
+| ID      | HU011                                          | versión | v1.0        |
+|---------|------------------------------------------------|---------|-------------|
+| Nombre  | Análisis de Vacantes                           | Estado  | Pendiente   |
+| Actor   | Usuario                                        | Puntos  | 5           |
+| Módulo  | Vacantes                                       | Fecha   | 19/03/2024  |
+
+## Descripción
+
+**Como** usuario, **quiero** que el sistema analice las descripciones de las vacantes y me sugiera modificaciones a mi hoja de vida **para** alinearla mejor con los requisitos del puesto, aumentando mis oportunidades de éxito.
+
+## Criterios de aceptación
+
+| Condición/Acción                                             | Resultado esperado                                                                                                   |
+|--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| Cuando se ingresa la descripción de una vacante              | El sistema debe poder analizar las descripciones de las vacantes y extraer los requisitos clave.                       |
+| Cuando se sugieren cambios en la hoja de vida                | El sistema debe sugerir cambios específicos en la hoja de vida del usuario para reflejar mejor esos requisitos.        |
+| Cuando se revisan las sugerencias                            | Las sugerencias deben ser claras y fáciles de implementar por el usuario.                                              |
+| Cuando se guarda la hoja de vida modificada                  | El usuario debe poder revisar y editar la hoja de vida personalizada antes de enviarla.                                |
+
