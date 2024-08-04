@@ -23,35 +23,37 @@
 
 
 
-## Historias de Usuarios Epicas
 
-
-# Personalización de Hojas de Vida
+#Historias de Usuarios Epicas
+-----------------------------------------------------------------
+# Filtracion de hoja de vida
 
 ## Descripción
-Como usuario, quiero que el sistema personalice mi hoja de vida para cada vacante específica, omitiendo información irrelevante y destacando las habilidades y experiencias pertinentes, para aumentar mis posibilidades de ser considerado para la posición.
+Como usuario, quiero que el sistema filtre mi hoja de vida para cada vacante específica, omitiendo información irrelevante y destacando las habilidades y experiencias pertinentes, para aumentar mis posibilidades de ser considerado para la posición.
 
 ## Criterios de aceptación
 - El sistema debe ser capaz de identificar y resaltar las habilidades y experiencias relevantes para la vacante.
 - El sistema debe omitir información que no sea relevante para la vacante específica.
 - El usuario debe poder revisar y editar la hoja de vida personalizada antes de enviarla.
 
-# Generación de Hojas de Vida
+
+# Personalización de Hojas de Vida
 
 ## Descripción
-Como usuario, quiero que el sistema genere automáticamente una hoja de vida completa a partir de mi perfil y experiencia, siguiendo un formato profesional y atractivo, para facilitar mi búsqueda de empleo.
+Como usuario requiero de la posibilidad de poder actualizar mi hoja de vida con el fin de agregarle información cuando sea necesario.
 
 ## Criterios de aceptación
-- El sistema debe generar una hoja de vida con un formato limpio y profesional.
-- La hoja de vida debe incluir secciones estándar como información personal, experiencia laboral, educación, habilidades, y referencias.
-- El usuario debe poder personalizar y ajustar el formato y contenido antes de finalizar la hoja de vida.
+- El sistema debe permitir la edicion de la hoja de vida del usuario.
+- Actualizar Información Existente.
+- Solo el usuario debe tener acceso a editar su hoja de vida.
+
 
 # Análisis de Vacantes
 
 ## Descripción
-Como usuario, quiero que el sistema analice las descripciones de las vacantes y me sugiera modificaciones a mi hoja de vida para alinearla mejor con los requisitos del puesto, aumentando mis oportunidades de éxito.
+Como usuario, quiero que el sistema analice las descripciones de las vacantes y me retroalimente sobre mi hoja de vida para alinearla mejor con los requisitos del puesto, aumentando mis oportunidades de éxito.
 
 ## Criterios de aceptación
 - El sistema debe poder analizar las descripciones de las vacantes y extraer los requisitos clave.
-- El sistema debe sugerir cambios específicos en la hoja de vida del usuario para reflejar mejor esos requisitos.
+- El sistema debe retroalimentarme en la hoja de vida del usuario para reflejar mejor esos requisitos.
 - Las sugerencias deben ser claras y fáciles de implementar por el usuario.
