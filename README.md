@@ -124,6 +124,27 @@ Como usuario, quiero que el sistema analice las descripciones de las vacantes y 
 | Cuando el usuario agrege informacion                       | Se debe cumplir que el sistema proporciond una confirmación visual (por ejemplo, un mensaje emergente o notificación)               |
 
 
+# Historia de Usuario - Personalizacion hoja de vida
+
+| ID      | HU04                                           | versión | v1.0        |
+|---------|------------------------------------------------|---------|-------------|
+| Nombre  | Actualizar o añadir foto de perfil             | Estado  | Pendiente   |
+| Actor   | Usuario                                        | Puntos  | 5           |
+| Módulo  | Personalización hoja de vida                   | Fecha   | 04/08/2024  |
+
+## Descripción
+
+**Como** usuario, **quiero**  actualizar la foto de perfil de la hoja de vida , **para** mantener un estandar profesional. 
+
+## Criterios de aceptación
+
+| Condición/Acción                                           | Resultado esperado                                                                                                                  |
+|------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| Cuando el usuario quiera actualizar su foto                | Se debe cumplir que el sistema por medio de una opcion facil de ver, poder modificar la foto de la hoja de vida                     | 
+| Cuando el usuario seleccione la foto                       | Se debe cumplir que el sistema le permita al usuario seleccionar de su galeria de fotos la imagen que desee agregar                 |
+| Cuando el usuario agregue la foto                          | Se debe cumplir que el sistema de la opcion de agregar la foto seleccionada y esta debera aparecer en la hoja de vida               |
+
+
 
 
 # Historia de Usuario - Filtracion hoja de vida
