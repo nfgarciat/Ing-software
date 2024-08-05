@@ -58,6 +58,74 @@ Como usuario, quiero que el sistema analice las descripciones de las vacantes y 
 - El sistema debe retroalimentarme en la hoja de vida del usuario para reflejar mejor esos requisitos.
 - Las sugerencias deben ser claras y fáciles de implementar por el usuario.
 
+
+# Historia de Usuario - Personalizacion hoja de vida
+
+| ID      | HU01                                           | versión | v1.0        |
+|---------|------------------------------------------------|---------|-------------|
+| Nombre  | Actualizar informacion personal                | Estado  | Pendiente   |
+| Actor   | Usuario                                        | Puntos  | 5           |
+| Módulo  | Personalización hoja de vida                   | Fecha   | 04/08/2024  |
+
+## Descripción
+
+**Como** usuario, **quiero** actualizar mi informacion personal en mi hoja de vida **para** añadir informacion cuando lo requiera
+
+## Criterios de aceptación
+
+| Condición/Acción                                                         | Resultado esperado                                                                                         |
+|--------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+| Cuando el usuario seleccione el boton que lo dirija a su cuenta          | Se debe cumplir que el sistema le permita editar su informacion personal                                   |
+| Cuando el usuario guarde los cambios                                     | Se debe cumplir que el sistema actualice la informacion y la guarde con éxito                              |
+| Cuando el usuario ingrese nueva informacion en los campos del formulario | Se debe cumplir que el sistema valide los datos, para asegurarse de que cumplen con los formatos correctos |
+
+
+# Historia de Usuario - Personalizacion hoja de vida
+
+| ID      | HU02                                           | versión | v1.0        |
+|---------|------------------------------------------------|---------|-------------|
+| Nombre  | Editar hoja de vida                            | Estado  | Pendiente   |
+| Actor   | Usuario                                        | Puntos  | 5           |
+| Módulo  | Personalización hoja de vida                   | Fecha   | 04/08/2024  |
+
+## Descripción
+
+**Como** usuario, **quiero**  que mi hoja de vida solo sea editable por mí **para** asegurar que mi información personal y profesional permanezca segura y confidencial.
+
+## Criterios de aceptación
+
+| Condición/Acción                                           | Resultado esperado                                                                                                                  |
+|------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| Cuando el usuario inicie sesion en el sistema              | Se debe cumplir que el sistema verifica la identidad del usuario para garantizar que solo él pueda acceder a su propia hoja de vida | 
+| Cuando un usuario no autenticado intente acceder al sistema| Se debe cumplir que el sistema muestre un mensaje de error y redirige al usuario a la página de inicio de sesión                    |
+| Cuando el usuario guarde cambios en su hoja de vida        | Se debe cumplir que el sistema confirme la acción y actualice la hoja de vida                                                       |
+| Cuando el usuario inicie sesión                            | El sistema debe permitir al usuario acceder a su hoja de vida sin requerir autenticación adicional                                  |
+
+
+# Historia de Usuario - Personalizacion hoja de vida
+
+| ID      | HU03                                           | versión | v1.0        |
+|---------|------------------------------------------------|---------|-------------|
+| Nombre  | Añadir informacion                             | Estado  | Pendiente   |
+| Actor   | Usuario                                        | Puntos  | 5           |
+| Módulo  | Personalización hoja de vida                   | Fecha   | 04/08/2024  |
+
+## Descripción
+
+**Como** usuario, **quiero**  poder añadir referencias profesionales e informacion a mi hoja de vida, **para** proporcionar evidencia adicional de mi desempeño y habilidades a potenciales empleadores.
+
+## Criterios de aceptación
+
+| Condición/Acción                                           | Resultado esperado                                                                                                                  |
+|------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
+| Cuando se añada una nueva referencia profesional           | Se debe cumplir que el sistema presente campos editables para ingresar detalles                                                     | 
+| Cuando el usuario complete los campos de informacion       | Se debe cumplir que el sistema le permita revisar su hoja de vida antes de guardarla                                                |
+| Cuando el usuario agrege nueva informacion                 | Se debe cumplir que el sistema muestre una interfaz de edición clara y actualice la hoja de vida, sin eliminar datos anteriores     |
+| Cuando el usuario agrege informacion                       | Se debe cumplir que el sistema proporciond una confirmación visual (por ejemplo, un mensaje emergente o notificación)               |
+
+
+
+
 # Historia de Usuario - Filtracion hoja de vida
 
 | ID      | HU05                                           | versión | v1.0        |
