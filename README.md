@@ -58,7 +58,67 @@ Como usuario, quiero que el sistema analice las descripciones de las vacantes y 
 - El sistema debe retroalimentarme en la hoja de vida del usuario para reflejar mejor esos requisitos.
 - Las sugerencias deben ser claras y fáciles de implementar por el usuario.
 
+# Historia de Usuario - Filtracion hoja de vida
 
+| ID      | HU05                                           | versión | v1.0        |
+|---------|------------------------------------------------|---------|-------------|
+| Nombre  | Actualización de perfil                        | Estado  | Pendiente   |
+| Actor   | Usuario                                        | Puntos  | 5           |
+| Módulo  | Filtracion hoja de vida                        | Fecha   | 04/08/2024  |
+
+## Descripción
+
+**Como** usuario, **quiero** que el sistema filtre mi hoja de vida **para** cada vacante específica, omitiendo información irrelevante y destacando las habilidades y experiencias pertinentes, para aumentar mis posibilidades de ser considerado para la posición.
+
+## Criterios de aceptación
+
+| Condición/Acción                                             | Resultado esperado                                                                                                   |
+|--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| Cuando se seleccione la vacante específica                   | El sistema debe ser capaz de identificar y resaltar las habilidades y experiencias relevantes para la vacante.         |
+| Cuando se seleccione la vacante                              | El sistema debe omitir información que no sea relevante para la vacante específica.                                    |
+| Cuando se visualizan la vacante                              | El usuario debe poder revisar la información antes de ser enviada.                                                     |
+| Cuando se actualice la información                           | El sistema debe permitir actualizar las habilidades y experiencias con el fin de revisar de nuevo las nuevas vacantes. |
+
+# Historia de Usuario - Filtracion hoja de vida
+
+| ID      | HU06                                           | versión | v1.0        |
+|---------|------------------------------------------------|---------|-------------|
+| Nombre  | Actualización de perfil                        | Estado  | Pendiente   |
+| Actor   | Usuario                                        | Puntos  | 5           |
+| Módulo  | Filtracion hoja de vida                        | Fecha   | 04/08/2024  |
+
+## Descripción
+
+**Como** usuario, **quiero** poder actualizar mi perfil con nuevas habilidades y experiencias **para** que mi hoja de vida esté siempre actualizada y relevante para futuras vacantes.
+
+## Criterios de aceptación
+
+| Condición/Acción                                             | Resultado esperado                                                                                                   |
+|--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| Cuando se edite el perfil del usuario                        | El sistema debe permitir la actualización de las habilidades y experiencia de cada usuario.                            |
+| Cuando se guarde el perfil actualizado                       | El sistema debe re-filtrar la hoja de vida para todas las vacantes disponibles.                                        |
+| Cuando se visualice el perfil actualizado                    | El usuario debe de poder ver todas las actualizaciones que se vean reflejadas en su hoja de vida.                      |
+| Cuando se filtre nuevamente para vacantes existentes         | El sistema debe actualizar las coincidencias de vacantes con la nueva información del perfil                           |
+
+# Historia de Usuario - Filtracion hoja de vida
+
+| ID      | HU07                                           | versión | v1.0        |
+|---------|------------------------------------------------|---------|-------------|
+| Nombre  | Omisión de información irrelevante             | Estado  | Pendiente   |
+| Actor   | Usuario                                        | Puntos  | 5           |
+| Módulo  | Filtracion hoja de vida                        | Fecha   | 04/08/2024  |
+
+## Descripción
+
+**Como** usuario, **quiero** que el sistema omita información que no sea relevante **para** la vacante específica, para asegurarme de que solo se destaquen las habilidades y experiencias pertinentes para la posición.
+
+## Criterios de aceptación
+
+| Condición/Acción                                             | Resultado esperado                                                                                                   |
+|--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| Cuando se seleccione la vacante específica                   | El sistema debe analizar la hoja de vida del usuario y determinar qué información es relevante para la vacante.        |
+| Cuando se identifique información irrelevante                | El sistema debe ocultar o eliminar esta información de la versión de la hoja de vida que se enviará para la vacante.   |
+| Cuando el usuario revise la hoja de vida filtrada            | El sistema debe mostrar únicamente las habilidades y experiencias pertinentes a la vacante.                            |
 
 # Historias de Usuario - Plantillas
 
