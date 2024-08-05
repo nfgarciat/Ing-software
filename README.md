@@ -61,9 +61,27 @@ Como usuario, quiero que el sistema analice las descripciones de las vacantes y 
 
 
 # Historias de Usuario - Plantillas
+
+| ID      | HU009                                        | versión | v1.0        |
+|---------|----------------------------------------------|---------|-------------|
+| Nombre  | Búsqueda de Vacantes                         | Estado  | Pendiente   |
+| Actor   | Usuario                                      | Puntos  | 5           |
+| Módulo  | Vacantes                                     | Fecha   | 19/03/2024  |
+
+## Descripción
+
+**Como** usuario, **quiero** buscar vacantes disponibles en el sistema **para** encontrar oportunidades laborales que se ajusten a mi perfil y preferencias.
+
+## Criterios de aceptación
+
+| Condición/Acción                                           | Resultado esperado                                                                                                     |
+|------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
+| Cuando se accede a la sección de búsqueda de vacantes      | El sistema debe permitir al usuario buscar vacantes mediante palabras clave, ubicación, categoría y otros filtros.      |
+| Cuando se visualizan los resultados de búsqueda            | El sistema debe mostrar una lista de vacantes con información básica como título del puesto, empresa, ubicación y fecha. |
+
 # Historia de Usuario
 
-| ID      | HU011                                          | versión | v1.0        |
+| ID      | HU010                                          | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
 | Nombre  | Análisis de Vacantes                           | Estado  | Pendiente   |
 | Actor   | Usuario                                        | Puntos  | 5           |
@@ -81,4 +99,26 @@ Como usuario, quiero que el sistema analice las descripciones de las vacantes y 
 | Cuando se sugieren cambios en la hoja de vida                | El sistema debe sugerir cambios específicos en la hoja de vida del usuario para reflejar mejor esos requisitos.        |
 | Cuando se revisan las sugerencias                            | Las sugerencias deben ser claras y fáciles de implementar por el usuario.                                              |
 | Cuando se guarda la hoja de vida modificada                  | El usuario debe poder revisar y editar la hoja de vida personalizada antes de enviarla.                                |
+
+# Historia de Usuario
+
+| ID      | HU011                                        | versión | v1.0        |
+|---------|----------------------------------------------|---------|-------------|
+| Nombre  | Postulación a Vacantes                       | Estado  | Pendiente   |
+| Actor   | Usuario                                      | Puntos  | 5           |
+| Módulo  | Vacantes                                     | Fecha   | 19/03/2024  |
+
+## Descripción
+
+**Como** usuario, **quiero** postularme a las vacantes que me interesen **para** aplicar a las oportunidades laborales directamente desde el sistema.
+
+## Criterios de aceptación
+
+| Condición/Acción                                           | Resultado esperado                                                                                                     |
+|------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
+| Cuando se selecciona una vacante específica                | El sistema debe mostrar los detalles completos de la vacante, incluyendo requisitos, responsabilidades y beneficios.   |
+| Cuando se decide postular a la vacante                     | El sistema debe permitir al usuario enviar su hoja de vida y carta de presentación directamente desde la plataforma.    |
+| Cuando se confirma la postulación                          | El sistema debe notificar al usuario que su postulación ha sido enviada exitosamente y registrar la postulación en su perfil. |
+
+
 
