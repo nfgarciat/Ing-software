@@ -120,7 +120,7 @@ Como usuario, quiero que el sistema analice las descripciones de las vacantes y 
 | Cuando se identifique información irrelevante                | El sistema debe ocultar o eliminar esta información de la versión de la hoja de vida que se enviará para la vacante.   |
 | Cuando el usuario revise la hoja de vida filtrada            | El sistema debe mostrar únicamente las habilidades y experiencias pertinentes a la vacante.                            |
 
-# Historias de Usuario - Plantillas
+# Historia de Usuario - Búsqueda de Vacantes  
 
 | ID      | HU009                                        | versión | v1.0        |
 |---------|----------------------------------------------|---------|-------------|
@@ -139,7 +139,7 @@ Como usuario, quiero que el sistema analice las descripciones de las vacantes y 
 | Cuando se accede a la sección de búsqueda de vacantes      | El sistema debe permitir al usuario buscar vacantes mediante palabras clave, ubicación, categoría y otros filtros.      |
 | Cuando se visualizan los resultados de búsqueda            | El sistema debe mostrar una lista de vacantes con información básica como título del puesto, empresa, ubicación y fecha. |
 
-# Historia de Usuario
+# Historia de Usuario - Análisis de Vacantes  
 
 | ID      | HU010                                          | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
@@ -160,7 +160,7 @@ Como usuario, quiero que el sistema analice las descripciones de las vacantes y 
 | Cuando se revisan las sugerencias                            | Las sugerencias deben ser claras y fáciles de implementar por el usuario.                                              |
 | Cuando se guarda la hoja de vida modificada                  | El usuario debe poder revisar y editar la hoja de vida personalizada antes de enviarla.                                |
 
-# Historia de Usuario
+# Historia de Usuario - Postulación a Vacantes
 
 | ID      | HU011                                        | versión | v1.0        |
 |---------|----------------------------------------------|---------|-------------|
