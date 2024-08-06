@@ -59,7 +59,7 @@ Como usuario, quiero que el sistema analice las descripciones de las vacantes y 
 - Las sugerencias deben ser claras y fáciles de implementar por el usuario.
 
 
-# Historia de Usuario - Personalizacion hoja de vida
+# -Personalizacion hoja de vida
 
 | ID      | HU01                                           | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
@@ -80,7 +80,7 @@ Como usuario, quiero que el sistema analice las descripciones de las vacantes y 
 | Cuando el usuario ingrese nueva informacion en los campos del formulario | Se debe cumplir que el sistema valide los datos, para asegurarse de que cumplen con los formatos correctos |
 
 
-# Historia de Usuario - Personalizacion hoja de vida
+# -Personalizacion hoja de vida
 
 | ID      | HU02                                           | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
@@ -102,7 +102,7 @@ Como usuario, quiero que el sistema analice las descripciones de las vacantes y 
 | Cuando el usuario inicie sesión                            | El sistema debe permitir al usuario acceder a su hoja de vida sin requerir autenticación adicional.                                 |
 
 
-# Historia de Usuario - Personalizacion hoja de vida
+# -Personalizacion hoja de vida
 
 | ID      | HU03                                           | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
@@ -124,7 +124,7 @@ Como usuario, quiero que el sistema analice las descripciones de las vacantes y 
 | Cuando el usuario agrege informacion                       | Se debe cumplir que el sistema proporciond una confirmación visual (por ejemplo, un mensaje emergente o notificación).              |
 
 
-# Historia de Usuario - Personalizacion hoja de vida
+# -Personalizacion hoja de vida
 
 | ID      | HU04                                           | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
@@ -134,7 +134,8 @@ Como usuario, quiero que el sistema analice las descripciones de las vacantes y 
 
 ## Descripción
 
-**Como** usuario, **quiero**  actualizar la foto de perfil de la hoja de vida , **para** mantener un estandar profesional. 
+**Como** usuario, **quiero# -Filtracion hoja de vida
+**  actualizar la foto de perfil de la hoja de vida , **para** mantener un estandar profesional. 
 
 ## Criterios de aceptación
 
@@ -147,7 +148,7 @@ Como usuario, quiero que el sistema analice las descripciones de las vacantes y 
 
 
 
-# Historia de Usuario - Filtracion hoja de vida
+# -Filtracion hoja de vida
 
 | ID      | HU05                                           | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
@@ -168,7 +169,7 @@ Como usuario, quiero que el sistema analice las descripciones de las vacantes y 
 | Cuando se visualizan la vacante                              | El usuario debe poder revisar la información antes de ser enviada.                                                     |
 | Cuando se actualice la información                           | El sistema debe permitir actualizar las habilidades y experiencias con el fin de revisar de nuevo las nuevas vacantes. |
 
-# Historia de Usuario - Filtracion hoja de vida
+# -Filtracion hoja de vida
 
 | ID      | HU06                                           | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
@@ -189,7 +190,7 @@ Como usuario, quiero que el sistema analice las descripciones de las vacantes y 
 | Cuando se visualice el perfil actualizado                    | El usuario debe de poder ver todas las actualizaciones que se vean reflejadas en su hoja de vida.                      |
 | Cuando se filtre nuevamente para vacantes existentes         | El sistema debe actualizar las coincidencias de vacantes con la nueva información del perfil.                          |
 
-# Historia de Usuario - Filtracion hoja de vida
+# -Filtracion hoja de vida
 
 | ID      | HU07                                           | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
@@ -209,7 +210,7 @@ Como usuario, quiero que el sistema analice las descripciones de las vacantes y 
 | Cuando se identifique información irrelevante                | El sistema debe ocultar o eliminar esta información de la versión de la hoja de vida que se enviará para la vacante.   |
 | Cuando el usuario revise la hoja de vida filtrada            | El sistema debe mostrar únicamente las habilidades y experiencias pertinentes a la vacante.                            |
 
-# Historia de Usuario - Filtracion hoja de vida
+# -Filtracion hoja de vida
 
 | ID      | HU08                                           | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
@@ -229,7 +230,7 @@ Como usuario, quiero que el sistema analice las descripciones de las vacantes y 
 | Cuando se seleccione la informacion                          | El sistema debe permitir al usuario seleccionar que informacion quiere que aparezca.                                 |
 | Cuando se confirme la informacion                            | El sistema debe confirmar la informacion que se selecciono y finalmente mostrar la hoja de vida con las modificaciones seleccionadas.  |
 
-# Historia de Usuario - Búsqueda de Vacantes  
+# -Vacantes 
 
 | ID      | HU009                                        | versión | v1.0        |
 |---------|----------------------------------------------|---------|-------------|
@@ -248,7 +249,7 @@ Como usuario, quiero que el sistema analice las descripciones de las vacantes y 
 | Cuando se accede a la sección de búsqueda de vacantes      | El sistema debe permitir al usuario buscar vacantes mediante palabras clave, ubicación, categoría y otros filtros.      |
 | Cuando se visualizan los resultados de búsqueda            | El sistema debe mostrar una lista de vacantes con información básica como título del puesto, empresa, ubicación y fecha. |
 
-# Historia de Usuario - Análisis de Vacantes  
+# -Vacantes 
 
 | ID      | HU010                                          | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
@@ -269,7 +270,7 @@ Como usuario, quiero que el sistema analice las descripciones de las vacantes y 
 | Cuando se revisan las sugerencias                            | Las sugerencias deben ser claras y fáciles de implementar por el usuario.                                              |
 | Cuando se guarda la hoja de vida modificada                  | El usuario debe poder revisar y editar la hoja de vida personalizada antes de enviarla.                                |
 
-# Historia de Usuario - Postulación a Vacantes
+# -Vacantes
 
 | ID      | HU011                                        | versión | v1.0        |
 |---------|----------------------------------------------|---------|-------------|
