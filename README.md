@@ -292,7 +292,7 @@ Como usuario, quiero que el sistema analice las descripciones de las vacantes y 
 | Cuando se decide postular a la vacante                     | El sistema debe permitir al usuario enviar su hoja de vida y carta de presentación directamente desde la plataforma.    |
 | Cuando se confirma la postulación                          | El sistema debe notificar al usuario que su postulación ha sido enviada exitosamente y registrar la postulación en su perfil. |
 
-# Historia de Usuario - Postulacion a vacantes
+# -Vacantes
 
 | ID      | HU012                                          | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
