@@ -49,6 +49,30 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 # Historias de Usuarios
 -----------------------------------------------------------------
 
+
+# Inicio de sesion
+
+| ID      | HU0000                                          | versión | v1.0        |
+|---------|------------------------------------------------|---------|-------------|
+| Nombre  | Inicio de sesión                                | Estado  | Pendiente   |
+| Actor   | Usuario                                         | Puntos  | 5           |
+| Módulo  | Inicio de sesión                                | Fecha   | 19/03/2024  |
+
+## Descripción
+
+*Como* usuario, *quiero* poder crear una cuenta *para* poder iniciar sesión en la página.
+
+## Criterios de aceptación
+
+| Condición/Acción                                             | Resultado esperado                                                                                                   |
+|--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| Cuando el usuario accede a la página de registro y completa los campos obligatorios (nombre, correo electrónico, contraseña) | El sistema valida los datos ingresados y muestra un mensaje de confirmación de cuenta creada.                        |
+| Cuando el usuario selecciona "Crear cuenta" después de llenar los campos | La cuenta se crea correctamente, y el usuario recibe un correo de confirmación.                                      |
+| Cuando el usuario intenta iniciar sesión con la cuenta recién creada | El sistema permite al usuario iniciar sesión y acceder a su perfil.                                                  |
+| Cuando el usuario intenta crear una cuenta con un correo electrónico ya registrado | El sistema debe mostrar un mensaje de error indicando que el correo electrónico ya está en uso.                      |
+
+
+
 # -Personalizacion hoja de vida
 
 | ID      | HU01                                           | versión | v1.0        |
