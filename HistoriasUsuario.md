@@ -2,6 +2,17 @@
 # Historias de Usuarios Epicas
 -----------------------------------------------------------------
 
+# Inicio de sesión
+
+## Descripción
+Como usuario, quiero poder crear una cuenta para poder iniciar sesión en la página.
+
+## Criterios de aceptación
+- El sistema debe permitir la creación de cuentas con una dirección de correo electrónico única.
+- Los campos obligatorios deben ser validados correctamente antes de crear la cuenta.
+- El sistema debe enviar un correo electrónico de confirmación de registro al usuario.
+- El sistema debe permitir iniciar sesión solo a usuarios que hayan confirmado su correo electrónico.
+
 
 # Personalización de Hojas de Vida
 
