@@ -132,7 +132,7 @@ Como usuario, quiero que el sistema analice las descripciones de las vacantes y 
 
 | ID      | HU05                                           | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
-| Nombre  | Actualización de perfil                        | Estado  | Pendiente   |
+| Nombre  | Hoja de vida                                   | Estado  | Pendiente   |
 | Actor   | Usuario                                        | Puntos  | 5           |
 | Módulo  | Filtracion hoja de vida                        | Fecha   | 04/08/2024  |
 
