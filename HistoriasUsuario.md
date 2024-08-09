@@ -35,6 +35,16 @@ Como usuario, quiero que el sistema analice las descripciones de las vacantes y 
 - El sistema debe retroalimentarme en la hoja de vida del usuario para reflejar mejor esos requisitos.
 - Las sugerencias deben ser claras y fáciles de implementar por el usuario.
 
+# Optimización integral de la plataforma para usabilidad, seguridad, compatibilidad y rendimiento
+
+## Descripción
+Como usuario, quiero que el sistema funcione de la mejor manera posible y que sea seguro navegar en el.
+
+## Criterios de aceptación
+- El sistema debe permitir acceder desde diferentes dispositivos y navegadores.
+- Que cuente con un sistema solido de seguridad y la integridad delos datos.
+- Que sea eficaz al momento de interatuar con las multiples herramientas que el sistema ofrece. 
+
 -----------------------------------------------------------------
 # Historias de Usuarios
 -----------------------------------------------------------------
