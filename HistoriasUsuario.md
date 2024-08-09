@@ -336,5 +336,26 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 | Cuando se confirme la eliminacion y comentarios              | El sistema debe mostrar un mensaje de confirmacion de la eliminacion de la postulacion y ademas pedirle al usuario que coloque un comentario de por que cancelo la postulacion. |
 
 
+# Inicio de sesion
+
+| ID      | HU013                                          | versión | v1.0        |
+|---------|------------------------------------------------|---------|-------------|
+| Nombre  | Optimizacion y seguridad                       | Estado  | Pendiente   |
+| Actor   | Sistema                                        | Puntos  | 5           |
+| Módulo  | Optimizacion y seguridad                       | Fecha   | 19/03/2024  |
+
+## Descripción
+
+Como usuario, quiero que el sistema funcione de la mejor manera posible y que sea seguro navegar en el.
+
+## Criterios de aceptación
+
+| Condición/Acción                                             | Resultado esperado                                                                                                   |
+|--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| Cuando el usuario acceda al sistema                          | Se debe cumplir que el sistema sea funcional en diversos dispositivos y navegadores                                  |
+| Cuando el usuario implemente un filtro de seguridad          | El sistema debe velar por la informacion e integridad de los datos del usuario                                       |
+| Cuando el usuario interactua con el sistema                  | El sistema debe responder de manera eficiente sin interrupciones y con alto rendiminto                               |
+
+
 
 
