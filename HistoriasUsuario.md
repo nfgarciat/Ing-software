@@ -61,7 +61,7 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 -----------------------------------------------------------------
 
 
-# Inicio de sesion
+# Iniciar sesion en el sistema
 
 | ID      | HU01                                           | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
@@ -84,52 +84,51 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 
 
 
-# -Personalizacion hoja de vida
+# Subir la hoja de vida
 
 | ID      | HU02                                           | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
-| Nombre  | Actualizar informacion personal                | Estado  | Pendiente   |
+| Nombre  | Subir la hoja de vida               | Estado  | Pendiente   |
 | Actor   | Usuario                                        | Puntos  | 5           |
-| Módulo  | Personalización hoja de vida                   | Fecha   | 04/08/2024  |
+| Módulo  | Subir la hoja de vida                 | Fecha   | 17/08/2024  |
 
 ## Descripción
 
-**Como** usuario, **quiero** actualizar mi informacion personal en mi hoja de vida **para** añadir informacion cuando lo requiera
+**Como** usuario, **quiero** subir mi hoja de vida al sistema **para** que sea almacenada y utilizada en procesos de selección.
 
 ## Criterios de aceptación
 
 | Condición/Acción                                                         | Resultado esperado                                                                                         |
 |--------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
-| Cuando el usuario seleccione el boton que lo dirija a su cuenta          | Se debe cumplir que el sistema le permita editar su informacion personal                                   |
-| Cuando el usuario guarde los cambios                                     | Se debe cumplir que el sistema actualice la informacion y la guarde con éxito                              |
-| Cuando el usuario ingrese nueva informacion en los campos del formulario | Se debe cumplir que el sistema valide los datos, para asegurarse de que cumplen con los formatos correctos |
+| Cuando el usuario selecciona un perfil específico, y accede al formulario de hoja de vida       | Se debe cumplir que el sistema presente un formulario editable con campos específicos para la experiencia, habilidades y educación, que están adaptados al perfil seleccionado.
+| Cuando el usuario completa o actualiza los campos del formulario y presiona el botón "Guardar"  | Se debe cumplir que el sistema valide la información ingresada y guarde los cambios, asegurando que la hoja de vida esté actualizada y lista para ser utilizada en vacantes relacionadas con ese perfil.
+| Cuando el usuario intenta salir del formulario sin guardar los cambios | Se debe cumplir que el sistema muestre una advertencia para confirmar si desea salir, evitando la pérdida de información.|
 
 
-# -Personalizacion hoja de vida
+# Leer hoja de vida
 
-| ID      | HU02                                           | versión | v1.0        |
+| ID      | HU03                                           | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
-| Nombre  | Editar hoja de vida                            | Estado  | Pendiente   |
-| Actor   | Usuario                                        | Puntos  | 5           |
-| Módulo  | Personalización hoja de vida                   | Fecha   | 04/08/2024  |
+| Nombre  | Leer hoja de vida                         | Estado  | Pendiente   |
+| Actor   | Sistema                                        | Puntos  | 5           |
+| Módulo  | Leer hoja de vida                   | Fecha   | 17/08/2024  |
 
 ## Descripción
 
-**Como** usuario, **quiero**  que mi hoja de vida solo sea editable por mí **para** asegurar que mi información personal y profesional permanezca segura y confidencial.
-
+**Como** sistema, **quiero**  leer la hoja de vida del usuario **para** procesar la información y presentarla de manera adecuada según el perfil y vacante seleccionados.
 ## Criterios de aceptación
 
 | Condición/Acción                                           | Resultado esperado                                                                                                                  |
 |------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| Cuando el usuario inicie sesion en el sistema              | Se debe cumplir que el sistema verifica la identidad del usuario para garantizar que solo él pueda acceder a su propia hoja de vida.| 
-| Cuando un usuario no autenticado intente acceder al sistema| Se debe cumplir que el sistema muestre un mensaje de error y redirige al usuario a la página de inicio de sesión.                   |
-| Cuando el usuario guarde cambios en su hoja de vida        | Se debe cumplir que el sistema confirme la acción y actualice la hoja de vida.                                                      |
-| Cuando el usuario inicie sesión                            | El sistema debe permitir al usuario acceder a su hoja de vida sin requerir autenticación adicional.                                 |
+| Cuando el sistema recibe una solicitud para leer la hoja de vida asociada a un perfil específico del usuario    | Se debe cumplir que el sistema acceda a la información del formulario de la hoja de vida almacenada para ese perfil, y la procese correctamente.   | 
+| Cuando el sistema detecta que la hoja de vida está incompleta o contiene errores  | Se debe cumplir que el sistema notifique al usuario sobre los campos faltantes o errores, sugiriendo que complete o corrija la información.                   |
+| Cuando el sistema prepara la hoja de vida para su visualización o uso en una aplicación a vacantes     | Se debe cumplir que el sistema muestre la información relevante (según el perfil y la vacante) , omitiendo datos innecesarios.                                  |
+| Cuando el sistema detecta cambios recientes en la hoja de vida del usuario              |   Se debe cumplir que el sistema realice una verificación automática de la información actualizada y presente al usuario un resumen de los cambios                             |
 
 
 # -Personalizacion hoja de vida
 
-| ID      | HU03                                           | versión | v1.0        |
+| ID      | HU04                                           | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
 | Nombre  | Añadir informacion                             | Estado  | Pendiente   |
 | Actor   | Usuario                                        | Puntos  | 5           |
@@ -151,7 +150,7 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 
 # -Personalizacion hoja de vida
 
-| ID      | HU04                                           | versión | v1.0        |
+| ID      | HU05                                           | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
 | Nombre  | Actualizar o añadir foto de perfil             | Estado  | Pendiente   |
 | Actor   | Usuario                                        | Puntos  | 5           |
@@ -175,7 +174,7 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 
 # -Filtracion hoja de vida
 
-| ID      | HU05                                           | versión | v1.0        |
+| ID      | HU06                                           | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
 | Nombre  | Hoja de vida                                   | Estado  | Pendiente   |
 | Actor   | Usuario                                        | Puntos  | 5           |
@@ -196,7 +195,7 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 
 # -Filtracion hoja de vida
 
-| ID      | HU06                                           | versión | v1.0        |
+| ID      | HU07                                           | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
 | Nombre  | Actualización de perfil                        | Estado  | Pendiente   |
 | Actor   | Usuario                                        | Puntos  | 5           |
@@ -217,7 +216,7 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 
 # -Filtracion hoja de vida
 
-| ID      | HU07                                           | versión | v1.0        |
+| ID      | HU08                                           | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
 | Nombre  | Omisión de información irrelevante             | Estado  | Pendiente   |
 | Actor   | Usuario                                        | Puntos  | 5           |
@@ -237,7 +236,7 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 
 # -Filtracion hoja de vida
 
-| ID      | HU08                                           | versión | v1.0        |
+| ID      | HU09                                           | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
 | Nombre  | filtracion manual                              | Estado  | Pendiente   |
 | Actor   | Usuario                                        | Puntos  | 5           |
@@ -257,7 +256,7 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 
 # -Vacantes 
 
-| ID      | HU009                                        | versión | v1.0        |
+| ID      | HU010                                       | versión | v1.0        |
 |---------|----------------------------------------------|---------|-------------|
 | Nombre  | Búsqueda de Vacantes                         | Estado  | Pendiente   |
 | Actor   | Usuario                                      | Puntos  | 5           |
@@ -276,7 +275,7 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 
 # -Vacantes 
 
-| ID      | HU010                                          | versión | v1.0        |
+| ID      | HU011                                          | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
 | Nombre  | Análisis de Vacantes                           | Estado  | Pendiente   |
 | Actor   | Usuario                                        | Puntos  | 5           |
@@ -297,7 +296,7 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 
 # -Vacantes
 
-| ID      | HU011                                        | versión | v1.0        |
+| ID      | HU012                                        | versión | v1.0        |
 |---------|----------------------------------------------|---------|-------------|
 | Nombre  | Postulación a Vacantes                       | Estado  | Pendiente   |
 | Actor   | Usuario                                      | Puntos  | 5           |
@@ -317,7 +316,7 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 
 # -Vacantes
 
-| ID      | HU012                                          | versión | v1.0        |
+| ID      | HU013                                          | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
 | Nombre  | Eliminar postulaciones                         | Estado  | Pendiente   |
 | Actor   | Usuario                                        | Puntos  | 5           |
@@ -338,7 +337,7 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 
 # Optimizacion y seguridad
 
-| ID      | HU013                                          | versión | v1.0        |
+| ID      | HU014                                          | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
 | Nombre  | Optimizacion y seguridad                       | Estado  | Pendiente   |
 | Actor   | Sistema                                        | Puntos  | 5           |
