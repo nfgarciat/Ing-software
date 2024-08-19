@@ -126,133 +126,25 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 | Cuando el sistema detecta cambios recientes en la hoja de vida del usuario              |   Se debe cumplir que el sistema realice una verificación automática de la información actualizada y presente al usuario un resumen de los cambios                             |
 
 
-# -Personalizacion hoja de vida
+# Personalización de Hoja de Vida
 
 | ID      | HU04                                           | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
-| Nombre  | Añadir informacion                             | Estado  | Pendiente   |
-| Actor   | Usuario                                        | Puntos  | 5           |
-| Módulo  | Personalización hoja de vida                   | Fecha   | 04/08/2024  |
+| Nombre  | Personalización de Hoja de Vida                | Estado  | Pendiente   |
+| Actor   | Usuario                                        | Puntos  | 7           |
+| Módulo  | Perfil de Usuario                              | Fecha   | 17/08/2024  |
 
 ## Descripción
 
-**Como** usuario, **quiero**  poder añadir referencias profesionales e informacion a mi hoja de vida, **para** proporcionar evidencia adicional de mi desempeño y habilidades a potenciales empleadores.
-
-## Criterios de aceptación
-
-| Condición/Acción                                           | Resultado esperado                                                                                                                  |
-|------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| Cuando se añada una nueva referencia profesional           | Se debe cumplir que el sistema presente campos editables para ingresar detalles.                                                    | 
-| Cuando el usuario complete los campos de informacion       | Se debe cumplir que el sistema le permita revisar su hoja de vida antes de guardarla.                                               |
-| Cuando el usuario agrege nueva informacion                 | Se debe cumplir que el sistema muestre una interfaz de edición clara y actualice la hoja de vida, sin eliminar datos anteriores.    |
-| Cuando el usuario agrege informacion                       | Se debe cumplir que el sistema proporciond una confirmación visual (por ejemplo, un mensaje emergente o notificación).              |
-
-
-# -Personalizacion hoja de vida
-
-| ID      | HU05                                           | versión | v1.0        |
-|---------|------------------------------------------------|---------|-------------|
-| Nombre  | Actualizar o añadir foto de perfil             | Estado  | Pendiente   |
-| Actor   | Usuario                                        | Puntos  | 5           |
-| Módulo  | Personalización hoja de vida                   | Fecha   | 04/08/2024  |
-
-## Descripción
-
-**Como** usuario, **quiero# -Filtracion hoja de vida
-**  actualizar la foto de perfil de la hoja de vida , **para** mantener un estandar profesional. 
-
-## Criterios de aceptación
-
-| Condición/Acción                                           | Resultado esperado                                                                                                                  |
-|------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|
-| Cuando el usuario quiera actualizar su foto                | Se debe cumplir que el sistema por medio de una opcion facil de ver, poder modificar la foto de la hoja de vida.                    | 
-| Cuando el usuario seleccione la foto                       | Se debe cumplir que el sistema le permita al usuario seleccionar de su galeria de fotos la imagen que desee agregar.                |
-| Cuando el usuario agregue la foto                          | Se debe cumplir que el sistema de la opcion de agregar la foto seleccionada y esta debera aparecer en la hoja de vida.              |
-
-
-
-
-# -Filtracion hoja de vida
-
-| ID      | HU06                                           | versión | v1.0        |
-|---------|------------------------------------------------|---------|-------------|
-| Nombre  | Hoja de vida                                   | Estado  | Pendiente   |
-| Actor   | Usuario                                        | Puntos  | 5           |
-| Módulo  | Filtracion hoja de vida                        | Fecha   | 04/08/2024  |
-
-## Descripción
-
-**Como** usuario, **quiero** que el sistema filtre mi hoja de vida **para** cada vacante específica, omitiendo información irrelevante y destacando las habilidades y experiencias pertinentes, para aumentar mis posibilidades de ser considerado para la posición.
+*Como* usuario, *quiero* poder modificar las hojas de vida almacenadas en mi perfil *para* personalizarlas según las diferentes vacantes a las que quiero aplicar.
 
 ## Criterios de aceptación
 
 | Condición/Acción                                             | Resultado esperado                                                                                                   |
 |--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| Cuando se seleccione la vacante específica                   | El sistema debe ser capaz de identificar y resaltar las habilidades y experiencias relevantes para la vacante.         |
-| Cuando se seleccione la vacante                              | El sistema debe omitir información que no sea relevante para la vacante específica.                                    |
-| Cuando se visualizan la vacante                              | El usuario debe poder revisar la información antes de ser enviada.                                                     |
-| Cuando se actualice la información                           | El sistema debe permitir actualizar las habilidades y experiencias con el fin de revisar de nuevo las nuevas vacantes. |
+| Cuando el usuario accede a su perfil y selecciona la opción de editar una hoja de vida | El sistema debe mostrar la hoja de vida seleccionada con todas las secciones editables.                        |
+| Cuando el usuario edita la información en su hoja de vida    | El sistema debe permitir guardar los cambios realizados y mantener la versión personalizada en el perfil.                      
 
-# -Filtracion hoja de vida
-
-| ID      | HU07                                           | versión | v1.0        |
-|---------|------------------------------------------------|---------|-------------|
-| Nombre  | Actualización de perfil                        | Estado  | Pendiente   |
-| Actor   | Usuario                                        | Puntos  | 5           |
-| Módulo  | Filtracion hoja de vida                        | Fecha   | 04/08/2024  |
-
-## Descripción
-
-**Como** usuario, **quiero** poder actualizar mi perfil con nuevas habilidades y experiencias **para** que mi hoja de vida esté siempre actualizada y relevante para futuras vacantes.
-
-## Criterios de aceptación
-
-| Condición/Acción                                             | Resultado esperado                                                                                                   |
-|--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| Cuando se edite el perfil del usuario                        | El sistema debe permitir la actualización de las habilidades y experiencia de cada usuario.                            |
-| Cuando se guarde el perfil actualizado                       | El sistema debe re-filtrar la hoja de vida para todas las vacantes disponibles.                                        |
-| Cuando se visualice el perfil actualizado                    | El usuario debe de poder ver todas las actualizaciones que se vean reflejadas en su hoja de vida.                      |
-| Cuando se filtre nuevamente para vacantes existentes         | El sistema debe actualizar las coincidencias de vacantes con la nueva información del perfil.                          |
-
-# -Filtracion hoja de vida
-
-| ID      | HU08                                           | versión | v1.0        |
-|---------|------------------------------------------------|---------|-------------|
-| Nombre  | Omisión de información irrelevante             | Estado  | Pendiente   |
-| Actor   | Usuario                                        | Puntos  | 5           |
-| Módulo  | Filtracion hoja de vida                        | Fecha   | 04/08/2024  |
-
-## Descripción
-
-**Como** usuario, **quiero** que el sistema omita información que no sea relevante **para** la vacante específica, para asegurarme de que solo se destaquen las habilidades y experiencias pertinentes para la posición.
-
-## Criterios de aceptación
-
-| Condición/Acción                                             | Resultado esperado                                                                                                   |
-|--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| Cuando se seleccione la vacante específica                   | El sistema debe analizar la hoja de vida del usuario y determinar qué información es relevante para la vacante.        |
-| Cuando se identifique información irrelevante                | El sistema debe ocultar o eliminar esta información de la versión de la hoja de vida que se enviará para la vacante.   |
-| Cuando el usuario revise la hoja de vida filtrada            | El sistema debe mostrar únicamente las habilidades y experiencias pertinentes a la vacante.                            |
-
-# -Filtracion hoja de vida
-
-| ID      | HU09                                           | versión | v1.0        |
-|---------|------------------------------------------------|---------|-------------|
-| Nombre  | filtracion manual                              | Estado  | Pendiente   |
-| Actor   | Usuario                                        | Puntos  | 5           |
-| Módulo  | Filtracion hoja de vida                        | Fecha   | 04/08/2024  |
-
-## Descripción
-
-**Como** usuario, **quiero** que el sistema permita hacer filtraciones manuales **para** casos en los que el sistema oculte alguna informacion que quiero que aparezca en la hoja de vida, o simplemente por si se presenta un error a la hora de hacer la filtracion de informacion.
-
-## Criterios de aceptación
-
-| Condición/Acción                                             | Resultado esperado                                                                                                   |
-|--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| Cuando se modifique la filtracion de informacion             | El sistema debe permitir al usuario modificar la filtracion de informacion por medio de una opcion en la U.I.        |
-| Cuando se seleccione la informacion                          | El sistema debe permitir al usuario seleccionar que informacion quiere que aparezca.                                 |
-| Cuando se confirme la informacion                            | El sistema debe confirmar la informacion que se selecciono y finalmente mostrar la hoja de vida con las modificaciones seleccionadas.  |
 
 # -Vacantes 
 
@@ -335,25 +227,48 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 | Cuando se confirme la eliminacion y comentarios              | El sistema debe mostrar un mensaje de confirmacion de la eliminacion de la postulacion y ademas pedirle al usuario que coloque un comentario de por que cancelo la postulacion. |
 
 
-# Optimizacion y seguridad
+# Filtrar Hoja de Vida
 
-| ID      | HU014                                          | versión | v1.0        |
+| ID      | HU08                                           | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
-| Nombre  | Optimizacion y seguridad                       | Estado  | Pendiente   |
-| Actor   | Sistema                                        | Puntos  | 5           |
-| Módulo  | Optimizacion y seguridad                       | Fecha   | 19/03/2024  |
+| Nombre  | Filtrar Hoja de Vida                           | Estado  | Pendiente   |
+| Actor   | Usuario                                        | Puntos  | 6           |
+| Módulo  | Aplicación a Vacante                           | Fecha   | 17/08/2024  |
 
 ## Descripción
 
-Como usuario, quiero que el sistema funcione de la mejor manera posible y que sea seguro navegar en el.
+*Como* usuario, *quiero* poder escoger qué tipo de hoja de vida colocar en el formulario de aplicación *para* que mi perfil se ajuste mejor a los requisitos del trabajo o vacante.
 
 ## Criterios de aceptación
 
 | Condición/Acción                                             | Resultado esperado                                                                                                   |
 |--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| Cuando el usuario acceda al sistema                          | Se debe cumplir que el sistema sea funcional en diversos dispositivos y navegadores                                  |
-| Cuando el usuario implemente un filtro de seguridad          | El sistema debe velar por la informacion e integridad de los datos del usuario                                       |
-| Cuando el usuario interactua con el sistema                  | El sistema debe responder de manera eficiente sin interrupciones y con alto rendiminto                               |
+| Cuando el usuario selecciona una vacante para aplicar        | El sistema debe mostrar opciones de diferentes tipos de hojas de vida relevantes para la vacante seleccionada.                        |
+| Cuando el usuario escoge un tipo de hoja de vida en el formulario de aplicación | El formulario se debe llenar automáticamente con la información relevante de la hoja de vida seleccionada.                                      |
+| Cuando el usuario revisa la hoja de vida seleccionada        | El usuario debe tener la posibilidad de editar la información antes de enviar la aplicación.                                                  |
+| Cuando se envía la aplicación con la hoja de vida seleccionada | El sistema debe guardar la elección y enviar la hoja de vida seleccionada a la vacante aplicada.                      |
+
+
+# Permitir Usabilidad en la Interfaz
+
+| ID      | HU09                                       | versión | v1.0        |
+|---------|------------------------------------------------|---------|-------------|
+| Nombre  | Permitir Usabilidad en la Interfaz             | Estado  | Pendiente   |
+| Actor   | Usuario                                        | Puntos  | 8           |
+| Módulo  | Interfaz de Usuario                            | Fecha   | 17/08/2024  |
+
+## Descripción
+
+*Como* usuario, *quiero* que la interfaz sea intuitiva y fácil de usar *para* poder navegar y completar mis tareas sin necesidad de una capacitación extensa.
+
+## Criterios de aceptación
+
+| Condición/Acción                                             | Resultado esperado                                                                                                   |
+|--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| Cuando un usuario accede a cualquier funcionalidad de la aplicación | La estructura y disposición de la interfaz deben ser claras y coherentes, facilitando la navegación.                        |
+| Cuando el usuario interactúa con los elementos de la interfaz (botones, menús, formularios) | Los elementos deben ser fácilmente identificables, accesibles, y proporcionar retroalimentación inmediata a las acciones del usuario.                                      |
+| Cuando un usuario se enfrenta a una tarea nueva o compleja   | El diseño debe incluir ayudas contextuales y descripciones para guiar al usuario en sus acciones.                                                  |
+| Cuando se realizan pruebas de usabilidad con usuarios representativos | La interfaz debe ser ajustada según los resultados de las pruebas, mejorando la experiencia del usuario.                      |
 
 
 
