@@ -145,7 +145,7 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 | Cuando el usuario accede a su perfil y selecciona la opción de editar una hoja de vida | El sistema debe mostrar la hoja de vida seleccionada con todas las secciones editables.                        |
 | Cuando el usuario edita la información en su hoja de vida    | El sistema debe permitir guardar los cambios realizados y mantener la versión personalizada en el perfil.                      
 
-# Iniciar sesion en el sistema
+# Buscar oferta laboral
 
 | ID      | HU05                                           | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
@@ -165,6 +165,27 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 |  Cuando se seleccione la vacante | El sistema debe omitir información que no sea relevante para la vacante específica.                                    |
 | Cuando se visualizan la vacante | El usuario debe poder revisar la información antes de ser enviada.                                                |
 | Cuando se actualice la información | El sistema debe permitir actualizar las habilidades y experiencias con el fin de revisar de nuevo las nuevas vacantes para las que aplica.    
+
+# Aplicar a la oferta laboral
+
+| ID      | HU06                                           | versión | v1.0        |
+|---------|------------------------------------------------|---------|-------------|
+| Nombre  | Aplicar a la oferta laboral                    | Estado  | Pendiente   |
+| Actor   | Usuario                                        | Puntos  | 5           |
+| Módulo  | Hoja de vida                                   | Fecha   | 17/08/2024  |
+
+## Descripción
+
+*Como* Candidato *quiero* aplicar de manera eficiente a una oferta laboral *para* aumentar mis posibilidades de ser considerado para el puesto.
+
+## Criterios de aceptación
+
+| Condición/Acción                                             | Resultado esperado                                                                                                   |
+|--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+|  Cuando el candidato selecciona la opción | El sistema debe enviar organizar la hoja de vida optimizada y que este relacionada con las capacidades del candidato.                       |
+|  Cuando el candidato revisa los detalles de la oferta laboral | Se debe mostrar un resumen de la información que esta relacionada, y omitir la informacion que no sea relevante                                    |
+| Cuando se visualizan la vacante | El usuario debe poder revisar la información antes de ser enviada.                                             
+
 
 # -Vacantes 
 
