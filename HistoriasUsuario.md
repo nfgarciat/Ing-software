@@ -183,7 +183,7 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 | Condición/Acción                                             | Resultado esperado                                                                                                   |
 |--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 |  Cuando el candidato selecciona la opción | El sistema debe enviar organizar la hoja de vida optimizada y que este relacionada con las capacidades del candidato.                       |
-|  Cuando el candidato revisa los detalles de la oferta laboral | Se debe mostrar un resumen de la información que esta relacionada, y omitir la informacion que no sea relevante                                    |
+|  Cuando el candidato revisa los detalles de la oferta laboral | Se debe mostrar un resumen de la información que esta relacionada, y omitir la informacion que no sea relevante.                                    |
 | Cuando se visualizan la vacante | El usuario debe poder revisar la información antes de ser enviada.  
 
 # Revisar la oferta laboral
@@ -202,8 +202,8 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 
 | Condición/Acción                                             | Resultado esperado                                                                                                   |
 |--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-|  Cuando el candidato selecciona una oferta laboral | El sistema debe mostrar una vista detallada con la descripción del requisitos con los que debe de cumplir el usuario, para determinar si cumple con estos                       |
-|  Cuando el candidato visualiza la oferta laboral | El sistema debe ofrecer la opción de guardar la hoja de vida, que varia depediendo de las capacidades del usuario y el puesto al que se quiere aplicar            |
+|  Cuando el candidato selecciona una oferta laboral | El sistema debe mostrar una vista detallada con la descripción del requisitos con los que debe de cumplir el usuario, para determinar si cumple con estos.                       |
+|  Cuando el candidato visualiza la oferta laboral | El sistema debe ofrecer la opción de guardar la hoja de vida, que varia depediendo de las capacidades del usuario y el puesto al que se quiere aplicar.            |
 | Cuando el usuario guarde o envíe la hoja de vida filtrada | El sistema debe mostrar únicamente las habilidades y experiencias pertinentes a la vacante.   
 
 
