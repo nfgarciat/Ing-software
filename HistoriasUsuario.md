@@ -145,6 +145,26 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 | Cuando el usuario accede a su perfil y selecciona la opción de editar una hoja de vida | El sistema debe mostrar la hoja de vida seleccionada con todas las secciones editables.                        |
 | Cuando el usuario edita la información en su hoja de vida    | El sistema debe permitir guardar los cambios realizados y mantener la versión personalizada en el perfil.                      
 
+# Iniciar sesion en el sistema
+
+| ID      | HU05                                           | versión | v1.0        |
+|---------|------------------------------------------------|---------|-------------|
+| Nombre  | Buscar oferta laboral                          | Estado  | Pendiente   |
+| Actor   | Sistema                                        | Puntos  | 5           |
+| Módulo  | Filtracion hoja de vida                        | Fecha   | 17/08/2024  |
+
+## Descripción
+
+*Como* usuario, *quiero* que el sistema filtre mi hoja de vida para cada vacante específica, omitiendo información irrelevante y destacando las habilidades y experiencias pertinentes, *para* aumentar mis posibilidades de ser considerado para la posición.
+
+## Criterios de aceptación
+
+| Condición/Acción                                             | Resultado esperado                                                                                                   |
+|--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+|  Cuando se seleccione la vacante especifica | El sistema debe ser capaz de identificar y resaltar las habilidades y experiencias relevantes para la vacante..                        |
+|  Cuando se seleccione la vacante | El sistema debe omitir información que no sea relevante para la vacante específica.                                    |
+| Cuando se visualizan la vacante | El usuario debe poder revisar la información antes de ser enviada.                                                |
+| Cuando se actualice la información | El sistema debe permitir actualizar las habilidades y experiencias con el fin de revisar de nuevo las nuevas vacantes para las que aplica.    
 
 # -Vacantes 
 
