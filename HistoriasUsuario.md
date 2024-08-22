@@ -349,9 +349,8 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 | Condición/Acción                                             | Resultado esperado                                                                                                   |
 |--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | Cuando el usuario acceda al sistema | El sistema debe contar con un filtro inicial de inicio de sesion con su respectivo usuario y contraseña.      |
-| Cuando el usuario ingrese sus datos personales en el formato de hoja de vida |                                       |
-| Cuando un usuario se enfrenta a una tarea nueva o compleja   | El diseño debe incluir ayudas contextuales y descripciones para guiar al usuario en sus acciones.                                                  |
-| Cuando se realizan pruebas de usabilidad con usuarios representativos | La interfaz debe ser ajustada según los resultados de las pruebas, mejorando la experiencia del usuario.                      |
+| Cuando el usuario ingrese sus datos personales en el formato de hoja de vida | El sistema debe garantizar la seguridad de los datos del usuario     |
+
 
 
 
