@@ -150,12 +150,12 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 | ID      | HU05                                           | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
 | Nombre  | Buscar oferta laboral                          | Estado  | Pendiente   |
-| Actor   | Sistema                                        | Puntos  | 5           |
-| Módulo  | Filtracion hoja de vida                        | Fecha   | 17/08/2024  |
+| Actor   | Usuario                                        | Puntos  | 5           |
+| Módulo  | Buscar oferta laboral                      | Fecha   | 17/08/2024  |
 
 ## Descripción
 
-*Como* usuario, *quiero* que el sistema tenga perfiles, de acuerdo con la informacion relavante destacando las habilidades y experiencias pertinentes, *para* aumentar mis posibilidades de ser considerado para la posición.
+*Como* usuario, *quiero* que el sistema me permita buscar las opciones de oferta laboral segun mi hoja de vida desarrollada.
 
 ## Criterios de aceptación
 
@@ -315,7 +315,7 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 | ID      | HU09                                       | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
 | Nombre  | Permitir Usabilidad en la Interfaz             | Estado  | Pendiente   |
-| Actor   | Usuario                                        | Puntos  | 8           |
+| Actor   | Sistema                                        | Puntos  | 8           |
 | Módulo  | Interfaz de Usuario                            | Fecha   | 17/08/2024  |
 
 ## Descripción
@@ -337,7 +337,7 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 | ID      | HU10                                           | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
 | Nombre  | Implementar seguridad                          | Estado  | Pendiente   |
-| Actor   | Usuario                                        | Puntos  | 8           |
+| Actor   | Sistema                                        | Puntos  | 8           |
 | Módulo  | Interfaz de Usuario                            | Fecha   | 17/08/2024  |
 
 ## Descripción
@@ -357,7 +357,7 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 | ID      | HU11                                           | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
 | Nombre  | Propiciar compatibilidad                       | Estado  | Pendiente   |
-| Actor   | Usuario                                        | Puntos  | 8           |
+| Actor   | Sistema                                        | Puntos  | 8           |
 | Módulo  | Interfaz de Usuario                            | Fecha   | 17/08/2024  |
 
 ## Descripción
@@ -376,7 +376,7 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 | ID      | HU12                                           | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
 | Nombre  | Dar rendimiento al sistema                     | Estado  | Pendiente   |
-| Actor   | Usuario                                        | Puntos  | 8           |
+| Actor   | Sistema                                        | Puntos  | 8           |
 | Módulo  | Interfaz de Usuario                            | Fecha   | 17/08/2024  |
 
 ## Descripción
