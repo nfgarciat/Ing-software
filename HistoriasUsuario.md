@@ -161,7 +161,7 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 
 | Condición/Acción                                             | Resultado esperado                                                                                                   |
 |--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-|  Cuando se seleccione la vacante especifica | El sistema debe ser capaz de identificar y resaltar las habilidades y experiencias relevantes para la vacante..                        |
+|  Cuando se seleccione la vacante especifica | El sistema debe ser capaz de identificar y resaltar las habilidades que esten mejor relacionada con la informacion de los cuestionarios.                        |
 |  Cuando se seleccione la vacante | El sistema debe omitir información que no sea relevante para la vacante específica.                                    |
 | Cuando se visualizan la vacante | El usuario debe poder revisar la información antes de ser enviada.                                                |
 | Cuando se actualice la información | El sistema debe permitir actualizar las habilidades y experiencias con el fin de revisar de nuevo las nuevas vacantes para las que aplica.    
@@ -182,8 +182,8 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 
 | Condición/Acción                                             | Resultado esperado                                                                                                   |
 |--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-|  Cuando el candidato selecciona la opción | El sistema debe enviar organizar la hoja de vida optimizada y que este relacionada con las capacidades del candidato.                       |
-|  Cuando el candidato revisa los detalles de la oferta laboral | Se debe mostrar un resumen de la información que esta relacionada, y omitir la informacion que no sea relevante.                                    |
+|  Cuando el candidato selecciona la opción | El sistema debe organizar la hoja de vida optimizada y que este relacionada con la informacion de los cuestionarios.                       |
+|  Cuando el candidato revisa   | el usuario debe porder ver un resumen de la hoja de vida, apartir de la informacion que se obtiene por los cuestionarios.                                    |
 | Cuando se visualizan la vacante | El usuario debe poder revisar la información antes de ser enviada.  
 
 # Revisar la oferta laboral
@@ -203,8 +203,8 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 | Condición/Acción                                             | Resultado esperado                                                                                                   |
 |--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 |  Cuando el candidato selecciona una oferta laboral | El sistema debe mostrar una vista detallada con la descripción del requisitos con los que debe de cumplir el usuario, para determinar si cumple con estos.                       |
-|  Cuando el candidato visualiza la oferta laboral | El sistema debe ofrecer la opción de guardar la hoja de vida, que varia depediendo de las capacidades del usuario y el puesto al que se quiere aplicar.            |
-| Cuando el usuario guarde o envíe la hoja de vida filtrada | El sistema debe mostrar únicamente las habilidades y experiencias pertinentes a la vacante.   
+|  Cuando el candidato visualiza la oferta laboral | El sistema debe ofrecer la opción de ver la hoja de vida, que varia depediendo de las capacidades del usuario y el puesto al que se quiere aplicar.            |
+| Cuando el usuario mire la hoja de vida| El sistema debe mostrar únicamente las habilidades que esten relacionadass con los formularios.   
 
 
 # -Vacantes 
