@@ -9,7 +9,7 @@
 | RF5    | Buscar oferta laboral                 | Usuario |
 | RF6    | Aplicar a la oferta laboral           | Usuario |
 | RF7    | Revisar la oferta laboral             | Sistema |
-| RF8    | Filtrar la hoja de vida               | Sistema |
+| RF8    | Filtrar la hoja de vida               | Usuario |
 
 
 ## Requisitos no funcionales
