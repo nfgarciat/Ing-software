@@ -371,6 +371,24 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 | Cuando un usuario accede al sistema | Se debe poder ingresar al sistema desde cualquier dispositovo y navegador web                        |
 | Cuando el usuario interactúa con los elementos de la interfaz (botones, menús, formularios) | El sistema debera funcionar de manera adecuada en cualquier dispositivo desde el cual se acceda al sistema                                      |
 
+# Dar rendimiento 
+
+| ID      | HU12                                           | versión | v1.0        |
+|---------|------------------------------------------------|---------|-------------|
+| Nombre  | Dar rendimiento al sistema                     | Estado  | Pendiente   |
+| Actor   | Usuario                                        | Puntos  | 8           |
+| Módulo  | Interfaz de Usuario                            | Fecha   | 17/08/2024  |
+
+## Descripción
+
+*Como* usuario, *quiero* que la interfaz sea fluida a la hora de navegar en esta.
+
+## Criterios de aceptación
+
+| Condición/Acción                                             | Resultado esperado                                                                                                   |
+|--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| Cuando un usuario accede a cualquier funcionalidad de la aplicación | La interfaz debe funcionar de la manera mas optima posible minimizando al maximo los tiempos de carga entre una interfaz y otra                     |
+
 
 
 
