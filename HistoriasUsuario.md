@@ -332,24 +332,24 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 | Cuando se realizan pruebas de usabilidad con usuarios representativos | La interfaz debe ser ajustada según los resultados de las pruebas, mejorando la experiencia del usuario.                      |
 
 
-# 
+# Implementar seguridad
 
-| ID      | HU09                                       | versión | v1.0        |
+| ID      | HU10                                           | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
-| Nombre  | Permitir Usabilidad en la Interfaz             | Estado  | Pendiente   |
+| Nombre  | Implementar seguridad                          | Estado  | Pendiente   |
 | Actor   | Usuario                                        | Puntos  | 8           |
 | Módulo  | Interfaz de Usuario                            | Fecha   | 17/08/2024  |
 
 ## Descripción
 
-*Como* usuario, *quiero* que la interfaz sea intuitiva y fácil de usar *para* poder navegar y completar mis tareas sin necesidad de una capacitación extensa.
+*Como* usuario, *quiero* que la aplicacion cuente con los respectivos filtros de seguridad para garantizar la integridad de mis datos.
 
 ## Criterios de aceptación
 
 | Condición/Acción                                             | Resultado esperado                                                                                                   |
 |--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| Cuando un usuario accede a cualquier funcionalidad de la aplicación | La estructura y disposición de la interfaz deben ser claras y coherentes, facilitando la navegación.                        |
-| Cuando el usuario interactúa con los elementos de la interfaz (botones, menús, formularios) | Los elementos deben ser fácilmente identificables, accesibles, y proporcionar retroalimentación inmediata a las acciones del usuario.                                      |
+| Cuando el usuario acceda al sistema | El sistema debe contar con un filtro inicial de inicio de sesion con su respectivo usuario y contraseña.      |
+| Cuando el usuario ingrese sus datos personales en el formato de hoja de vida |                                       |
 | Cuando un usuario se enfrenta a una tarea nueva o compleja   | El diseño debe incluir ayudas contextuales y descripciones para guiar al usuario en sus acciones.                                                  |
 | Cuando se realizan pruebas de usabilidad con usuarios representativos | La interfaz debe ser ajustada según los resultados de las pruebas, mejorando la experiencia del usuario.                      |
 
