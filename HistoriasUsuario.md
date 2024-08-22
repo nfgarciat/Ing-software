@@ -155,7 +155,7 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 
 ## Descripción
 
-*Como* usuario, *quiero* que el sistema filtre los perfiles, de acuerdo con la informacion relavante destacando las habilidades y experiencias pertinentes, *para* aumentar mis posibilidades de ser considerado para la posición.
+*Como* usuario, *quiero* que el sistema tenga perfiles, de acuerdo con la informacion relavante destacando las habilidades y experiencias pertinentes, *para* aumentar mis posibilidades de ser considerado para la posición.
 
 ## Criterios de aceptación
 
