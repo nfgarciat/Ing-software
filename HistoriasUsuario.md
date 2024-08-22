@@ -182,7 +182,7 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 
 | Condición/Acción                                             | Resultado esperado                                                                                                   |
 |--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-|  Cuando el candidato selecciona la opción | El sistema debe organizar la hoja de vida optimizada y que este relacionada con la informacion de los cuestionarios.                       |
+|  Cuando el candidato selecciona la opción de perfiles| El sistema debe organizar la hoja de vida optimizada y que este relacionada con la informacion de los cuestionarios.                       |
 |  Cuando el candidato revisa   | el usuario debe porder ver un resumen de la hoja de vida, apartir de la informacion que se obtiene por los cuestionarios.                                    |
 | Cuando se visualizan la vacante | El usuario debe poder revisar la información antes de ser enviada.  
 
