@@ -352,5 +352,25 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 | Cuando el usuario ingrese sus datos personales en el formato de hoja de vida | El sistema debe garantizar la seguridad de los datos del usuario     |
 
 
+# Propiciar compatibilidad
+
+| ID      | HU11                                           | versión | v1.0        |
+|---------|------------------------------------------------|---------|-------------|
+| Nombre  | Propiciar compatibilidad                       | Estado  | Pendiente   |
+| Actor   | Usuario                                        | Puntos  | 8           |
+| Módulo  | Interfaz de Usuario                            | Fecha   | 17/08/2024  |
+
+## Descripción
+
+*Como* usuario, *quiero* que la interfaz sea accesible desde multiples dispositivos y navegadores web.
+
+## Criterios de aceptación
+
+| Condición/Acción                                             | Resultado esperado                                                                                                   |
+|--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| Cuando un usuario accede al sistema | Se debe poder ingresar al sistema desde cualquier dispositovo y navegador web                        |
+| Cuando el usuario interactúa con los elementos de la interfaz (botones, menús, formularios) | El sistema debera funcionar de manera adecuada en cualquier dispositivo desde el cual se acceda al sistema                                      |
+
+
 
 
