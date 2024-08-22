@@ -288,7 +288,7 @@ Como usuario, quiero que el sistema funcione de la mejor manera posible y que se
 | Cuando se confirme la eliminacion y comentarios              | El sistema debe mostrar un mensaje de confirmacion de la eliminacion de la postulacion y ademas pedirle al usuario que coloque un comentario de por que cancelo la postulacion. |
 
 
-# Filtrar Hoja de Vida
+# Escoger hoja de vida
 
 | ID      | HU08                                           | versión | v1.0        |
 |---------|------------------------------------------------|---------|-------------|
