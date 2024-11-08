@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="home-container">
+        <div class="logo-container">
+            <img src="imagenes/logo.png" alt="Logo de ProFile" class="logo logo-perfil"> 
+        </div>
+
+        <div class="profile-buttons-container">
+            <a href="home.html" class="home-button"> 
+                <span class="material-icons"></span>
+                Inicio
+            </a>
+
+            <a href="index.html" class="logout-button"> 
+                <span class="material-icons"></span>
+                Cerrar sesión
+            </a>
+        </div>
+        
+        <div id="perfil-container">
+            <h2>Mis Perfiles</h2>
+            <div id="lista-perfiles"></div>
+            <div class="botones-perfil">
+                <button id="crear-perfil" class="boton-perfil">Crear Perfil</button> 
+                <button id="borrar-todos" class="boton-perfil">Borrar Todos los Perfiles</button>
+            </div>
+        </div>
+
+        <div id="formulario-perfil" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h3>Crear Perfil</h3>
+                <div class="formulario-container"> 
+                    <label for="foto">Foto de Perfil:</label>
+                    <input type="file" id="foto" accept="image/*" required>
+
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" required>
+
+                    <label for="correo">Correo electrónico:</label>
+                    <input type="email" id="correo" required>
+
+                    <label for="telefono">Número de teléfono:</label>
+                    <input type="tel" id="telefono" required>
+
+                    <label for="direccion">Dirección de residencia:</label>
+                    <input type="text" id="direccion" required>
+
+                    <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+                    <input type="date" id="fecha_nacimiento" required>
+
+                    <label for="nacionalidad">Nacionalidad:</label>
+                    <input type="text" id="nacionalidad" required>
+
+                    <label for="carrera">Profesión o carrera:</label>
+                    <input type="text" id="carrera" required>
+
+                    <label for="experiencia">Años de experiencia laboral:</label>
+                    <input type="number" id="experiencia" required>
+
+                    <label for="empresa">Última empresa donde trabajaste:</label>
+                    <input type="text" id="empresa" required>
+
+                    <label for="cargo">Cargo más reciente:</label>
+                    <input type="text" id="cargo" required>
+
+                    <label for="estudios">Nivel de estudios alcanzado:</label>
+                    <input type="text" id="estudios" required>
+
+                    <label for="idiomas">Idiomas que hablas (y nivel):</label>
+                    <input type="text" id="idiomas" required>
+
+                    <label for="habilidades">Habilidades técnicas:</label>
+                    <input type="text" id="habilidades" required>
+
+                    <label for="hobbies">Hobbies o intereses personales:</label>
+                    <input type="text" id="hobbies" required>
+
+                    <label for="logros">Descripción breve de tus logros o proyectos:</label>
+                    <textarea id="logros" required></textarea>
+
+                    <button onclick="guardarPerfil()" class="boton-perfil">Guardar Perfil</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function mostrarPerfiles() {
+            const listaPerfiles = document.getElementById('lista-perfiles');
+            listaPerfiles.innerHTML = ''; 
+
+            if (localStorage.length > 0) { 
+                for (let i = 0; i < localStorage.length; i++) {
+                    const key = localStorage.key(i);
+                    const perfil = JSON.parse(localStorage.getItem(key));
+
+                    const recuadro = document.createElement('div');
+                    recuadro.className = 'recuadro-perfil';
+                    recuadro.innerHTML = `
+                        <img src="${perfil.foto}" alt="${perfil.nombre}" class="foto-perfil">
+                        <h3>${perfil.nombre}</h3> 
+                        <p><strong>Correo:</strong> ${perfil.correo}</p> 
+                        <p><strong>Teléfono:</strong> ${perfil.telefono}</p> 
+                        <p><strong>Dirección:</strong> ${perfil.direccion}</p> 
+                        <p><strong>Fecha de Nacimiento:</strong> ${perfil.fecha_nacimiento}</p>
+                        <p><strong>Nacionalidad:</strong> ${perfil.nacionalidad}</p>
+                        <p><strong>Carrera:</strong> ${perfil.carrera}</p>
+                        <p><strong>Años de experiencia:</strong> ${perfil.experiencia}</p>
+                        <p><strong>Última empresa:</strong> ${perfil.empresa}</p>
+                        <p><strong>Cargo:</strong> ${perfil.cargo}</p>
+                        <p><strong>Estudios:</strong> ${perfil.estudios}</p>
+                        <p><strong>Idiomas:</strong> ${perfil.idiomas}</p>
+                        <p><strong>Habilidades:</strong> ${perfil.habilidades}</p>
+                        <p><strong>Hobbies:</strong> ${perfil.hobbies}</p>
+                        <p><strong>Logros:</strong> ${perfil.logros}</p>
+                        <div class="acciones-perfil">
+                            <button onclick="editarPerfil('${key}')" class="boton-perfil editar">Editar</button>
+                            <button onclick="eliminarPerfil('${key}')" class="boton-perfil eliminar">Eliminar</button>
+                        </div>
+                    `;
+                    listaPerfiles.appendChild(recuadro);
+                }
+            } else { 
+                const mensaje = document.createElement('p');
+                mensaje.textContent = 'No hay perfiles creados.';
+                listaPerfiles.appendChild(mensaje);
+            }
+        }
+
+        function guardarPerfil() {
+            const fotoInput = document.getElementById('foto');
+            const nombre = document.getElementById('nombre').value;
+            const correo = document.getElementById('correo').value;
+            const telefono = document.getElementById('telefono').value;
+            const direccion = document.getElementById('direccion').value;
+            const fecha_nacimiento = document.getElementById('fecha_nacimiento').value;
+            const nacionalidad = document.getElementById('nacionalidad').value;
+            const carrera = document.getElementById('carrera').value;
+            const experiencia = document.getElementById('experiencia').value;
+            const empresa = document.getElementById('empresa').value;
+            const cargo = document.getElementById('cargo').value;
+            const estudios = document.getElementById('estudios').value;
+            const idiomas = document.getElementById('idiomas').value;
+            const habilidades = document.getElementById('habilidades').value;
+            const hobbies = document.getElementById('hobbies').value;
+            const logros = document.getElementById('logros').value;
+
+            if (fotoInput.files.length === 0 ||
+                !nombre || !correo || !telefono || !direccion || !fecha_nacimiento ||
+                !nacionalidad || !carrera || !experiencia || !empresa || !cargo ||
+                !estudios || !idiomas || !habilidades || !hobbies || !logros) {
+                alert('Por favor, completa todos los campos y selecciona una foto de perfil.');
+                return;
+            }
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const foto = e.target.result;
+
+                localStorage.setItem(nombre, JSON.stringify({ 
+                    foto: foto,
+                    nombre: nombre, 
+                    correo: correo,
+                    telefono: telefono,
+                    direccion: direccion,
+                    fecha_nacimiento: fecha_nacimiento,
+                    nacionalidad: nacionalidad,
+                    carrera: carrera,
+                    experiencia: experiencia,
+                    empresa: empresa,
+                    cargo: cargo,
+                    estudios: estudios,
+                    idiomas: idiomas,
+                    habilidades: habilidades,
+                    hobbies: hobbies,
+                    logros: logros
+                }));
+
+                mostrarPerfiles();
+                document.getElementById('foto').value = '';
+                document.getElementById('nombre').value = '';
+                document.getElementById('correo').value = '';
+                document.getElementById('telefono').value = '';
+                document.getElementById('direccion').value = '';
+                document.getElementById('fecha_nacimiento').value = '';
+                document.getElementById('nacionalidad').value = '';
+                document.getElementById('carrera').value = '';
+                document.getElementById('experiencia').value = '';
+                document.getElementById('empresa').value = '';
+                document.getElementById('cargo').value = '';
+                document.getElementById('estudios').value = '';
+                document.getElementById('idiomas').value = '';
+                document.getElementById('habilidades').value = '';
+                document.getElementById('hobbies').value = '';
+                document.getElementById('logros').value = '';
+                cerrarModal();
+            };
+
+            reader.readAsDataURL(fotoInput.files[0]);
+        }
+
+        function editarPerfil(key) {
+            const perfil = JSON.parse(localStorage.getItem(key));
+            const nuevoNombre = prompt('Ingresa el nuevo nombre:', perfil.nombre);
+            if (!nuevoNombre) return;
+
+            const nuevoCorreo = prompt('Ingresa el nuevo correo:', perfil.correo);
+            if (!nuevoCorreo) return;
+
+            const nuevoTelefono = prompt('Ingresa el nuevo teléfono:', perfil.telefono);
+            if (!nuevoTelefono) return;
+
+            const nuevaDireccion = prompt('Ingresa la nueva dirección:', perfil.direccion);
+            if (!nuevaDireccion) return;
+
+            const nuevaFechaNacimiento = prompt('Ingresa la nueva fecha de nacimiento:', perfil.fecha_nacimiento);
+            if (!nuevaFechaNacimiento) return;
+
+            const nuevaNacionalidad = prompt('Ingresa la nueva nacionalidad:', perfil.nacionalidad);
+            if (!nuevaNacionalidad) return;
+
+            const nuevaCarrera = prompt('Ingresa la nueva carrera:', perfil.carrera);
+            if (!nuevaCarrera) return;
+
+            const nuevaExperiencia = prompt('Ingresa los nuevos años de experiencia:', perfil.experiencia);
+            if (!nuevaExperiencia) return;
+
+            const nuevaEmpresa = prompt('Ingresa la nueva empresa:', perfil.empresa);
+            if (!nuevaEmpresa) return;
+
+            const nuevoCargo = prompt('Ingresa el nuevo cargo:', perfil.cargo);
+            if (!nuevoCargo) return;
+
+            const nuevosEstudios = prompt('Ingresa el nuevo nivel de estudios:', perfil.estudios);
+            if (!nuevosEstudios) return;
+
+            const nuevosIdiomas = prompt('Ingresa los nuevos idiomas que hablas:', perfil.idiomas);
+            if (!nuevosIdiomas) return;
+
+            const nuevasHabilidades = prompt('Ingresa las nuevas habilidades técnicas:', perfil.habilidades);
+            if (!nuevasHabilidades) return;
+
+            const nuevosHobbies = prompt('Ingresa los nuevos hobbies o intereses personales:', perfil.hobbies);
+            if (!nuevosHobbies) return;
+
+            const nuevosLogros = prompt('Describe tus nuevos logros o proyectos:', perfil.logros);
+            if (!nuevosLogros) return;
+
+            localStorage.setItem(key, JSON.stringify({
+                foto: perfil.foto, 
+                nombre: nuevoNombre,
+                correo: nuevoCorreo,
+                telefono: nuevoTelefono,
+                direccion: nuevaDireccion,
+                fecha_nacimiento: nuevaFechaNacimiento,
+                nacionalidad: nuevaNacionalidad,
+                carrera: nuevaCarrera,
+                experiencia: nuevaExperiencia,
+                empresa: nuevaEmpresa,
+                cargo: nuevoCargo,
+                estudios: nuevosEstudios,
+                idiomas: nuevosIdiomas,
+                habilidades: nuevasHabilidades,
+                hobbies: nuevosHobbies,
+                logros: nuevosLogros
+            }));
+            mostrarPerfiles();
+        }
+
+        function eliminarPerfil(key) {
+            if (confirm('¿Estás seguro de que deseas eliminar este perfil?')) {
+                localStorage.removeItem(key);
+                mostrarPerfiles();
+            }
+        }
+
+        const modal = document.getElementById('formulario-perfil');
+        const btnCrearPerfil = document.getElementById('crear-perfil');
+        const spanCerrar = document.getElementsByClassName('close-button')[0];
+
+        btnCrearPerfil.onclick = function() {
+            modal.style.display = 'block';
+        }
+
+        spanCerrar.onclick = function() {
+            cerrarModal();
+        }
+
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                cerrarModal();
+            }
+        }
+
+        function cerrarModal() {
+            modal.style.display = 'none';
+        }
+
+        document.getElementById('borrar-todos').addEventListener('click', function() {
+            if (confirm('¿Estás seguro de que deseas borrar todos los perfiles?')) {
+                localStorage.clear();
+                mostrarPerfiles();
+            }
+        });
+
+        window.onload = mostrarPerfiles;
+    </script>
+</body>
+</html>
